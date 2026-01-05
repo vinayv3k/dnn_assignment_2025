@@ -1,0 +1,27 @@
+dataset:
+  batch_size: 16
+  hf_name: daniel3303/StoryReasoning
+  image_size: 128
+  max_caption_len: 32
+  max_reason_len: 32
+  seq_len: 3
+model:
+  bos_token_id: 101
+  eos_token_id: 102
+  image_feat_dim: 512
+  multimodal_dim: 512
+  pad_token_id: 0
+  reason_embed_dim: 256
+  reason_hidden_dim: 512
+  temporal_hidden_dim: 512
+  text_decoder_hidden: 512
+  text_embed_dim: 300
+  text_hidden_dim: 512
+  vocab_size: 30522
+training:
+  device: auto
+  epochs: 5
+  grad_clip: 1.0
+  log_interval: 50
+  lr: 0.0001
+  save_dir: results/checkpoints
