@@ -160,7 +160,5 @@ You can easily extend this project:
 Add reasoning decoder (same style as caption decoder)
 Add beam search decoding
 Use Vision Transformers instead of CNN encoder
-
 Precompute image embeddings to speed up training
-
 Add multiple captions or explanations per sequence
