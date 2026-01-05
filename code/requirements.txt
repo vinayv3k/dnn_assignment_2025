@@ -1,0 +1,17 @@
+# Core ML framework
+tensorflow>=2.13
+
+# HuggingFace ecosystem for loading the dataset + tokenizer
+datasets>=2.17.0
+transformers>=4.36.0
+
+# Image handling
+Pillow>=9.0
+
+# Utilities
+numpy>=1.23
+tqdm>=4.64
+pyyaml>=6.0
+
+# Optional but recommended for monitoring
+tensorboard>=2.13
